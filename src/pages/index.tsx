@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useEvmWalletNFTs } from "@moralisweb3/next";
 import { EvmNft } from "@moralisweb3/common-evm-utils";
 
-const address = "0x...";
+const address = "0x5dA0380543eFfd5dCefe135d1bF777cb89860Cb0";
 const chains = [
   { id: 1, name: "Ethereum" },
   { id: 137, name: "Polygon" },
